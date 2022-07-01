@@ -1,10 +1,9 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/* more headers goes there */
 /**
  * main - Entry point of the program
- * @void - command line argument 
+ * @void - command line argument
  * Return: exit status of the program
 */
 int main(void)
