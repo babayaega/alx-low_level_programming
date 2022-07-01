@@ -5,6 +5,7 @@
 /**
  * main - the entry point of this program
  * @void: command line arguments
+ * Return: exit code of the program
  */
 int main(void)
 {
