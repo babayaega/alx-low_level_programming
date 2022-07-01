@@ -1,9 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-/* more headers goes there */
 
-/* betty style doc for function main goes there */
+/**
+ * main - the entry point of this program
+ * @void: command line arguments
+ */
 int main(void)
 {
 	int n;
