@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
- * main - check the code
+ * print_alphabet - a function that prints the letters of the alphabet
  *
- * Return: Always 0.
+ * Return: the exit status of the program.
  */
 
-int main(void)
+void print_alphabet(void)
 {
 	int i;
 
