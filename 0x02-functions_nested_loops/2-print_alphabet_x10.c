@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_alphabet - a function that prints the letters of the alphabet
+ * print_alphabet_x10 - prints letters of the alphabet x 10
  *
  * Return: the exit status of the program.
  */
@@ -16,6 +16,6 @@ void print_alphabet_x10(void)
 		{
 			_putchar(i);
 		}
+		_putchar('\n');
 	}
-	_putchar('\n');
 }
