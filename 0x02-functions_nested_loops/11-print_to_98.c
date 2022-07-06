@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * a function that prints from 0 - 98
+ * print_to_98 - a function that prints from 0 - 98
  * @n: function parameter
  * Return: exit status of the program
  */
