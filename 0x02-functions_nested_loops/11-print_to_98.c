@@ -1,5 +1,5 @@
 #include "main.h"
-
+#include <stdio.h>
 /**
  * a function that prints from 0 - 98
  * @n: function parameter
