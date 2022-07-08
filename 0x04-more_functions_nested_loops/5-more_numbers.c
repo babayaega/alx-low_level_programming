@@ -4,7 +4,7 @@
  * more_numbers - prints every number from 0-14 multiplied by 10
  */
 
-void more_number(void)
+void more_numbers(void)
 {
 	int i;
 	char c;
