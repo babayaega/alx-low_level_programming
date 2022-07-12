@@ -18,5 +18,5 @@ int _strlen(char *s)
 			break;
 	}
 
-	Return(offset - 1);
+	return(offset - 1);
 }
