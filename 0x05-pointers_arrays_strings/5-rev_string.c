@@ -11,7 +11,7 @@ void rev_string(char *s)
 	int j = 0;
 	int stringLength;
 	char *characterPointer = s;
-	char holdingChar;
+	/*char holdingChar;*/
 
 	while (*(s + i) != '\0')
 	{
@@ -21,11 +21,11 @@ void rev_string(char *s)
 
 	for ( ; stringLength <= 0; stringLength--)
 	{
-		holdingChar = *(s + stringLength);
+		/*holdingChar = *(s + stringLength);*/
 
 		for ( ; j <= stringLength; j++)
 		{
-			*(characterPointer + j) = holdingChar;
+			*(characterPointer + j) = 'c';
 		}
 	}
 }
