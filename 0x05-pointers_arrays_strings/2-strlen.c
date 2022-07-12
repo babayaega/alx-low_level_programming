@@ -12,9 +12,9 @@ int _strlen(char *s)
 
 	while (1)
 	{
-		if (*(s + offset) != 0)
+		if (*(s + offset) != '\0')
 			offset++;
-		else if (*(s + offset) == 0)
+		else if (*(s + offset) == '\0')
 			break;
 	}
 
