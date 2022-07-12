@@ -8,13 +8,15 @@
 void rev_string(char *s)
 {
 	int i = 0;
-	int offset = 0;
+	unsigned long j = 0;
+	char holdingArray[sizeof(s) - 1];
 
-	while (*(s + offset) != '\0')
+	for (i = sizeof(s) - 1; i <= 0; i--)
 	{
-		offset++;
+		for (j = 0; j < sizeof(holdingArray); j++)
+		{
+			holdingArray[j] = *(s + i);
+			_putchar(holdingArray[j]);
+		}
 	}
-
-	for (i = offset - 1; i <= 0; i--)
-		_putchar(*(s + i));
 }
