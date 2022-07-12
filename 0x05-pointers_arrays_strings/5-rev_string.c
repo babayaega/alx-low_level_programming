@@ -8,21 +8,24 @@
 void rev_string(char *s)
 {
 	int i = 0;
-	unsigned long j = 0;
-	char *holdingPointer = s;
-	char holdingArray[sizeof(s) - 1];
+	int j = 0;
+	int stringLength;
+	char *characterPointer = s;
+	char holdingChar;
 
-	for (i = sizeof(s) - 1; i <= 0; i--)
+	while (*(s + i) != '\0')
 	{
-		for (j = 0; j < sizeof(holdingArray); j++)
+		stringLength++;
+		i++;
+	}
+
+	for ( ; stringLength <= 0; stringLength--)
+	{
+		holdingChar = s[stringLength];
+
+		for ( ; j <= stringLength; j++)
 		{
-			holdingArray[j] = *(s + i);
+			*(characterPointer + j) = holdingChar;
 		}
 	}
-
-	for (j = 0; j < sizeof(holdingArray); j++)
-	{
-		*(holdingPointer + j) = holdingArray[j];
-	}
-
 }
