@@ -10,7 +10,7 @@ void _puts(char *str)
 
 	while (*(str + offset) != '\0')
 	{
-		_putchar(*(str + offset))
+		_putchar(*(str + offset));
 		offset++;
 	}
 
