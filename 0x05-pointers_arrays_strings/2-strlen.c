@@ -9,14 +9,12 @@
 int _strlen(char *s)
 {
 	int offset = 0;
-	int checker = 0;
 
-	while (checker == 0)
+	while (True)
 	{
 		if (*(s + offset) != 0)
 			offset++;
 		else if (*(s + offset) == 0)
-			checker = 1;
 			break;
 	}
 
