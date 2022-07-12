@@ -7,6 +7,7 @@
 
 void rev_string(char *s)
 {
+	int i = 0;
 	int offset = 0;
 
 	while (*(s + offset) != 0)
@@ -14,6 +15,6 @@ void rev_string(char *s)
 		offset++;
 	}
 
-	for (offset = offset - 1; offset <= 0; offset--)
-		_putchar(*(s + offset));
+	for (i = offset - 1; i <= 0; i--)
+		_putchar(*(s + i));
 }
