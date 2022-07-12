@@ -21,7 +21,7 @@ void rev_string(char *s)
 
 	for ( ; stringLength <= 0; stringLength--)
 	{
-		holdingChar = s[stringLength];
+		holdingChar = *(s + stringLength);
 
 		for ( ; j <= stringLength; j++)
 		{
