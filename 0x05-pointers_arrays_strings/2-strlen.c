@@ -10,7 +10,7 @@ int _strlen(char *s)
 {
 	int offset = 0;
 
-	while (True)
+	while (1)
 	{
 		if (*(s + offset) != 0)
 			offset++;
