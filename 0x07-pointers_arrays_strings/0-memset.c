@@ -5,6 +5,7 @@
  * @s: starting memory address
  * @b: value to fill memory blocks with
  * @n: number of bytes to fill
+ * Return: number of bytes of memory from starting address to change
  */
 
 char *_memset(char *s, char b, unsigned int n)
