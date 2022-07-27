@@ -4,15 +4,15 @@
 /**
  * alloc_grid -a function that  creates a two dimensional int grid
  * @height: number of rows
- * @width: number of column 
-* Return: pointer to grid or null
+ * @width: number of column
+ * Return: pointer to grid or null
  **/
 
 int **alloc_grid(int width, int height)
 {
 	int **grid;
 	int i;
-	int  j;
+	int j;
 
 	if (width < 1 || height < 1)
 		return (NULL);
