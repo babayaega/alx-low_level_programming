@@ -4,7 +4,7 @@
 /**
  * alloc_grid -a function that  creates a two dimensional int grid
  * @height: number of rows
- * @width: number of columns 
+ * @width: number of column 
 * Return: pointer to grid or null
  **/
 
